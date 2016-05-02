@@ -1,0 +1,122 @@
+html, body{
+	height:100%;
+	background-image: url("https://tatica.fedorapeople.org/Themes/F15/background.png");
+	background-size: cover;
+	font-family:Verdana;
+}
+body{padding-top:70px;}
+nav{
+	display:flex;
+	align-items:center;
+	justify-content: flex-end;
+}
+nav h1{
+	font-weight:700;
+	margin:0;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	padding:20px;
+	text-decoration:none !important;
+	cursor:pointer;
+	position: relative;
+	margin: 0;
+}
+nav a:hover{
+	color:white;
+	background-color:black;
+}
+nav a:active{top:2px;}
+
+
+	/*
+header a{
+	text-decoration:none;
+	color:white;
+	border:2px solid black;
+	border-radius:5px;
+	padding:7.5px;
+	text-decoration:none !important;
+}
+header .row{
+	display:flex;
+	align-items:center;
+}
+header a{
+	text-decoration:none;
+	color:white;
+	border:2px solid black;
+	border-radius:5px;
+	padding:7.5px;
+	text-decoration:none !important;
+}
+header a:hover{
+	color:white;
+	background-color:black;
+}
+header h1{
+	font-weight:700;
+	margin:0;
+}
+header nav{
+	display:flex;
+	justify-content: flex-end;
+}
+header p{
+	padding:0 20px;
+	margin:0;
+}
+header a{
+	cursor:pointer;
+	position:relative;
+}
+header a:active{
+	top:2px;
+}
+*/
+.jumbotron{
+	display:flex;
+	align-items:center;
+	background-image:url('http://www.roseheights.org/wp-content/uploads/2015/05/dlr_30041.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	color:#ffffff;
+	height:500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h1{text-align:center;}
+.jumbotron p{text-align:center;}
+section .col-sm-12{
+	border:1px solid #000;
+	border-radius:5px;
+	text-align: center;
+	padding: 30px;
+	margin:2px;
+}
+figure p{text-align:center;}
+section .row img{
+	margin:0 0 30px;
+	width: 100%;
+}
+footer{
+	font-size:12px;
+	padding:20px 0;
+}
+footer .col-sm-8{
+	display:flex;
+	justify-content: flex-end;
+}
+footer ul{list-style: none;}
+footer li img{
+	width:32px;
+	height:32px;
+}
+footer img:hover{
+	cursor:pointer;
+	position:relative;
+}
+footer img:active{
+	top:2px;
+}
