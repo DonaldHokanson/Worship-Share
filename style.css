@@ -28,53 +28,6 @@ nav a:hover{
 	background-color:black;
 }
 nav a:active{top:2px;}
-
-
-	/*
-header a{
-	text-decoration:none;
-	color:white;
-	border:2px solid black;
-	border-radius:5px;
-	padding:7.5px;
-	text-decoration:none !important;
-}
-header .row{
-	display:flex;
-	align-items:center;
-}
-header a{
-	text-decoration:none;
-	color:white;
-	border:2px solid black;
-	border-radius:5px;
-	padding:7.5px;
-	text-decoration:none !important;
-}
-header a:hover{
-	color:white;
-	background-color:black;
-}
-header h1{
-	font-weight:700;
-	margin:0;
-}
-header nav{
-	display:flex;
-	justify-content: flex-end;
-}
-header p{
-	padding:0 20px;
-	margin:0;
-}
-header a{
-	cursor:pointer;
-	position:relative;
-}
-header a:active{
-	top:2px;
-}
-*/
 .jumbotron{
 	display:flex;
 	align-items:center;
